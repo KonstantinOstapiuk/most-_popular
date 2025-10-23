@@ -52,7 +52,7 @@ body{
     grid-template-rows: repeat(2, auto);
 }
 .popular__link{
-    max-width: 392px;
+    width: 392px;
     height: 294px;
     padding: 33px;
     display: flex;
