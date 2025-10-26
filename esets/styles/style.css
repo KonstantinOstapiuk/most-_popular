@@ -10,7 +10,7 @@
     --3: #ec4e0a;
 }
 .conteiner {
-    max-width: 1244px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -47,12 +47,13 @@ body{
 }
 .popular__menu{
     margin-top: 90px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, auto);
 }
 .popular__link{
-    width: 392px;
-    height: 294px;
+    max-width: 392px;
+    max-height: 294px;
     padding: 33px;
     display: flex;
     flex-direction: column;
@@ -71,6 +72,10 @@ body{
 .popular__logo{
     display: flex;
     column-gap: 29px;
+}
+.logo__app{
+    width: 54px;
+    height: 54px;
 }
 .popular__name{
     display: flex;
