@@ -20,9 +20,9 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('../Poppins-SemiBold.woff2') format('woff2'),
-        url('../Poppins-SemiBold.woff') format('woff'),
-        url('../Poppins-SemiBold.ttf') format('truetype');
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -30,9 +30,9 @@
 
 @font-face {
     font-family: 'Lora';
-    src: url('../Lora-Medium.woff2') format('woff2'),
-        url('../Lora-Medium.woff') format('woff'),
-        url('../Lora-Medium.ttf') format('truetype');
+    src: url('../fonts/Lora-Medium.woff2') format('woff2'),
+        url('../fonts/Lora-Medium.woff') format('woff'),
+        url('../fonts/Lora-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -40,9 +40,9 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../Roboto-Regular.woff2') format('woff2'),
-        url('../Roboto-Regular.woff') format('woff'),
-        url('../Roboto-Regular.ttf') format('truetype');
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

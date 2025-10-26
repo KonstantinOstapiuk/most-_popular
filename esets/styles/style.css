@@ -47,9 +47,8 @@ body{
 }
 .popular__menu{
     margin-top: 90px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    display: flex;
+    flex-wrap: wrap;
 }
 .popular__link{
     width: 392px;
