@@ -53,11 +53,11 @@ body{
 }
 .popular__link{
     max-width: 392px;
-    max-height: 294px;
     padding: 33px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+    justify-content: space-between;
     border-radius: 15px;
     background: #1e252b;
 }
