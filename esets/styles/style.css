@@ -74,8 +74,13 @@ body{
     column-gap: 29px;
 }
 .logo__app{
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
+}
+.logo__app img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
 }
 .popular__name{
     display: flex;
